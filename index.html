@@ -1,0 +1,27 @@
+---
+layout: default
+title: Portfolio
+---
+
+<section class="content portfolio">
+  {% for post in site.posts %}
+    <article>
+      <section>
+        <span class="cover"></span>
+        <img src="{{ post.thumbnail}}">
+      </section>
+      <footer>
+        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+        <p>
+          {{ post.type }}
+        </p>
+      </footer>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="show_case">
+  <section>
+  </section>
+  <span></span>
+</section>
