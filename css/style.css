@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
     border-top: 5px solid #202024;
     padding-top: 100px; }
     #main header#header a#logo {
-      background: url("/img/page/logo.png") no-repeat center center;
+      background: url("/jekyll-portfolio/img/page/logo.png") no-repeat center center;
       height: 106px;
       width: 404px;
       display: block;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5 {
               position: absolute;
               width: 273px;
               height: 293px;
-              background: url("/img/page/mask.png");
+              background: url("/jekyll-portfolio/img/page/mask.png");
               display: inline-block; }
               #main section#body section.content.portfolio article section span:hover {
                 -webkit-transform: scale(1.1);
@@ -132,11 +132,11 @@ h1, h2, h3, h4, h5 {
         -webkit-box-shadow: inset 0 9px 6px -6px black, inset 0 -9px 6px -6px black;
         -moz-box-shadow: inset 0 9px 6px -6px black, inset 0 -9px 6px -6px black;
         box-shadow: inset 0 9px 6px -6px black, inset 0 -9px 6px -6px black;
-        background: url("/img/page/showcase_background.png"); }
+        background: url("/jekyll-portfolio/img/page/showcase_background.png"); }
       #main section#body section.show_case span {
         display: none;
         position: absolute;
-        background: url("/img/page/arrow.png") no-repeat top center;
+        background: url("/jekyll-portfolio/img/page/arrow.png") no-repeat top center;
         width: 78px;
         height: 43px;
         top: -30px;
