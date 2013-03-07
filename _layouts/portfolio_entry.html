@@ -6,7 +6,16 @@ layout: default
 <section class="content portfolio_view">
   <section>
   	<h1 class="content">{{page.title}}</h1>
-
-	{{ content }}
+  	{{ content }}
+  	<section class="tech">
+  	<h2>Techniques used</h2>
+  	<ul>
+	  {% for technique in page.tech %}
+	  <li>
+		{{ technique }}
+	  </li>
+	  {% endfor %}
+	</ul>
+	</section>
   </section>
 </section>

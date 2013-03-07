@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	/*
 	$('article').click(function(){
 		var s = $(".show_case").children("span")
 		var b = $(".show_case").children("section")
@@ -31,4 +32,5 @@ $(document).ready(function(){
 			});
 		}
 	});
+*/
 });
